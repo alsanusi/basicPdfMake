@@ -19,6 +19,7 @@ var fonts = {
 }
 const printer = new pdfPrinter(fonts)
 
+// Generate-Pdf EndPoint
 app.get('/generate-pdf', (req, res) => {
 
     var bodyData = []
